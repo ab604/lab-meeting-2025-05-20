@@ -198,7 +198,7 @@ ggplot(data = quartet) +
   theme(aspect.ratio = 1)
 ```
 
-## {background-image="img/Screenshot from 2025-05-19 15-13-55.png" background-position="center" background-size="60%"}
+## {background-image="img/Screenshot from 2025-05-19 15-13-55.png" background-position="center" background-size="50%"}
 
 ## Key points {.center}
 

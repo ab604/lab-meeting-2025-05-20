@@ -179,8 +179,8 @@ Alistair Bailey
 
     <script>
 
-      function styleCell_zm5kq5p1ijjfc7k3krph(i, j, css_id) {
-          var table = document.getElementById("tinytable_zm5kq5p1ijjfc7k3krph");
+      function styleCell_6xdnw1xt33d56dss2ics(i, j, css_id) {
+          var table = document.getElementById("tinytable_6xdnw1xt33d56dss2ics");
           var cell = table.rows[i]?.cells[j];  // Safe navigation to avoid errors
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -190,7 +190,7 @@ Alistair Bailey
           }
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_zm5kq5p1ijjfc7k3krph');
+        var table = document.getElementById('tinytable_6xdnw1xt33d56dss2ics');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -198,8 +198,8 @@ Alistair Bailey
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_zm5kq5p1ijjfc7k3krph(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_zm5kq5p1ijjfc7k3krph");
+      function spanCell_6xdnw1xt33d56dss2ics(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_6xdnw1xt33d56dss2ics");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -229,14 +229,14 @@ Alistair Bailey
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: 4, j: 0 }, { i: 4, j: 1 }, { i: 4, j: 2 }, { i: 4, j: 3 }, { i: 4, j: 4 },  ], css_id: 'tinytable_css_clsjgwt3ontic9sr4zi5',}, 
-          { positions: [ { i: 0, j: 0 }, { i: 0, j: 1 }, { i: 0, j: 2 }, { i: 0, j: 3 }, { i: 0, j: 4 },  ], css_id: 'tinytable_css_obvjqd0sv6423h27q29k',}, 
+          { positions: [ { i: 4, j: 0 }, { i: 4, j: 1 }, { i: 4, j: 2 }, { i: 4, j: 3 }, { i: 4, j: 4 },  ], css_id: 'tinytable_css_zkaq7r5ukihdxoiiq2us',}, 
+          { positions: [ { i: 0, j: 0 }, { i: 0, j: 1 }, { i: 0, j: 2 }, { i: 0, j: 3 }, { i: 0, j: 4 },  ], css_id: 'tinytable_css_6cfct3weygiu7m1phyvy',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_zm5kq5p1ijjfc7k3krph(cell.i, cell.j, group.css_id);
+                  styleCell_6xdnw1xt33d56dss2ics(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -244,11 +244,11 @@ Alistair Bailey
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_clsjgwt3ontic9sr4zi5, .table th.tinytable_css_clsjgwt3ontic9sr4zi5 { border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_obvjqd0sv6423h27q29k, .table th.tinytable_css_obvjqd0sv6423h27q29k { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_zkaq7r5ukihdxoiiq2us, .table th.tinytable_css_zkaq7r5ukihdxoiiq2us { border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_6cfct3weygiu7m1phyvy, .table th.tinytable_css_6cfct3weygiu7m1phyvy { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_zm5kq5p1ijjfc7k3krph" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_6xdnw1xt33d56dss2ics" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -308,7 +308,7 @@ Alistair Bailey
 </div>
 </div>
 </section>
-<section id="section-3" class="slide level2" data-background-image="img/Screenshot from 2025-05-19 15-13-55.png" data-background-position="center" data-background-size="60%">
+<section id="section-3" class="slide level2" data-background-image="img/Screenshot from 2025-05-19 15-13-55.png" data-background-position="center" data-background-size="50%">
 <h2></h2>
 </section>
 <section id="key-points" class="slide level2 center">
