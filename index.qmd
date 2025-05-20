@@ -184,24 +184,30 @@ quartet |>
 ## {.center background-color="white"}
 
 ```{r}
+#| fig-width: 8
+#| fig-height: 8
+#| out-width: "70%"
+#| out-height: "70%"
+#| fig-align: center
+#| echo: false
 ggplot(data = quartet) +
   geom_point(mapping = aes(x, y)) +
   facet_wrap(~df) +
-  coord_fixed(ratio = 0.7) +
-  theme_clean()
+  theme_clean() +
+  # Make the plot square
+  theme(aspect.ratio = 1)
 ```
 
-## {background-image="img/Screenshot from 2025-05-19 15-13-55.png" background-position="center" background-size="50%"}
+## {background-image="img/Screenshot from 2025-05-19 15-13-55.png" background-position="center" background-size="90%"}
 
-## Building the Exchange/Forward Exchange Figure
+## Key points {.center}
 
-1. Decide on plot types:
-    + Parity Plot: data of equal value will fall on the line of parity
-    + Box Plot: plot the difference between values
-2. Consider how many plots are needed:
-    + We have three timepoints to plot and two pD conditions: 2 x 6 = 12 plots
-4. Create the plots
-3. Apply theming e.g. fonts, colours, annotations
-5. Arrange the plots on a single figure
+1. Data organisation is the single biggest way to reduce pain
+2. Invest in learning one plotting tool/system well
+3. Build complexity step-wise as you would with developing a lab protocol
 
-## Create the plots
+## Links {.center}
+
+- [ggplot2](https://ggplot2.tidyverse.org/index.html)
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [Betsy Mason article on visualisation in Science](https://knowablemagazine.org/content/article/mind/2019/science-data-visualization)
