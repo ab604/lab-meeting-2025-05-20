@@ -186,8 +186,8 @@ quartet |>
 ```{r}
 #| fig-width: 8
 #| fig-height: 8
-#| out-width: "70%"
-#| out-height: "70%"
+#| out-width: "60%"
+#| out-height: "60%"
 #| fig-align: center
 #| echo: false
 ggplot(data = quartet) +
@@ -198,7 +198,7 @@ ggplot(data = quartet) +
   theme(aspect.ratio = 1)
 ```
 
-## {background-image="img/Screenshot from 2025-05-19 15-13-55.png" background-position="center" background-size="90%"}
+## {background-image="img/Screenshot from 2025-05-19 15-13-55.png" background-position="center" background-size="60%"}
 
 ## Key points {.center}
 
